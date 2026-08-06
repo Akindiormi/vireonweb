@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import ActivityTicker from './ActivityTicker'
 import VireonOnboardingFlow from './vireon-onboarding'
+import HeroBackground from './HeroBackground'
 
 export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   return (
     <section className="relative overflow-hidden pt-16 pb-20 lg:pt-20 lg:pb-28">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
+      <HeroBackground />
+      <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
         <div>
           <h1 className="font-display font-semibold text-[2.75rem] leading-[1.05] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
             Your opinions are
