@@ -9,11 +9,7 @@ export default function Hero() {
     <section className="relative overflow-hidden pt-16 pb-20 lg:pt-20 lg:pb-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
         <div>
-          <span className="inline-flex items-center rounded-full border border-indigo/20 bg-indigo-soft px-4 py-1.5 text-xs font-semibold tracking-wide text-indigo uppercase">
-
-          </span>
-
-          <h1 className="mt-6 font-display font-semibold text-[2.75rem] leading-[1.05] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
+          <h1 className="font-display font-semibold text-[2.75rem] leading-[1.05] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
             Your opinions are
             <br />
             <span className="text-indigo">worth something.</span>
