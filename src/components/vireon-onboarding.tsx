@@ -49,9 +49,9 @@ export default function VireonOnboardingFlow({ isOpen, onClose }: VireonOnboardi
   if (!isOpen) return null;
 
   const bankDetails = {
-    accountNumber: "7014954174",
+    accountNumber: "8165645124",
     bankName: "Moniepoint",
-    accountName: "Alabi Yusuf Olumide",
+    accountName: "Bella Isaiah Olugbenga",
   };
 
   const plans = {
@@ -341,14 +341,17 @@ export default function VireonOnboardingFlow({ isOpen, onClose }: VireonOnboardi
                       </p>
                     </div>
 
-                    <div className="flex items-start gap-2.5 rounded-xl border border-amber-500/20 bg-amber-500/[0.06] px-4 py-3">
-                      <Clock size={15} className="mt-0.5 shrink-0 text-amber-400" strokeWidth={2} />
-                      <p className="text-[12px] leading-relaxed text-amber-200/80">
-                        Vireon is in beta. Payments are currently verified manually while automated
-                        verification is being built — activation may take a little longer than usual.
-                      </p>
-                    </div>
+                   <div className="flex items-start gap-2.5 rounded-xl border border-amber-500/20 bg-amber-500/[0.06] px-4 py-3">
+  <Clock
+    size={15}
+    className="mt-0.5 shrink-0 text-amber-400"
+    strokeWidth={2}
+  />
 
+  <p className="text-sm leading-relaxed text-amber-200/80">
+    For a smooth verification process, <span className="font-semibold text-amber-100">payments made from OPay accounts should not be transferred directly to this account.</span> Please use another bank account or contact support for the correct payment instructions before proceeding.
+  </p>
+</div>
                     <div className="rounded-2xl bg-white/[0.03] border border-white/10 p-4 flex items-center justify-between text-xs">
                       <div>
                         <p className="text-slate-500">Account holder</p>
