@@ -23,7 +23,7 @@ export default function HeroBackground() {
         className="absolute -top-32 -left-24 h-[32rem] w-[32rem] rounded-full blur-3xl"
         style={{
           background:
-            "radial-gradient(circle, rgba(99,102,241,0.16) 0%, rgba(99,102,241,0) 70%)",
+            "radial-gradient(circle, rgba(99,102,241,0.45) 0%, rgba(99,102,241,0) 70%)",
         }}
         animate={{
           x: [0, 40, -20, 0],
@@ -41,7 +41,7 @@ export default function HeroBackground() {
         className="absolute -bottom-40 -right-20 h-[36rem] w-[36rem] rounded-full blur-3xl"
         style={{
           background:
-            "radial-gradient(circle, rgba(16,185,129,0.12) 0%, rgba(16,185,129,0) 70%)",
+            "radial-gradient(circle, rgba(16,185,129,0.38) 0%, rgba(16,185,129,0) 70%)",
         }}
         animate={{
           x: [0, -30, 20, 0],
@@ -59,7 +59,7 @@ export default function HeroBackground() {
         className="absolute top-1/3 left-1/2 h-[24rem] w-[24rem] -translate-x-1/2 rounded-full blur-3xl"
         style={{
           background:
-            "radial-gradient(circle, rgba(167,139,250,0.10) 0%, rgba(167,139,250,0) 70%)",
+            "radial-gradient(circle, rgba(167,139,250,0.32) 0%, rgba(167,139,250,0) 70%)",
         }}
         animate={{
           x: [0, 20, -30, 0],
@@ -77,7 +77,7 @@ export default function HeroBackground() {
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(circle at 50% 35%, transparent 0%, rgba(255,255,255,0.7) 90%)",
+            "radial-gradient(circle at 50% 35%, transparent 0%, rgba(255,255,255,0.35) 95%)",
         }}
       />
 
