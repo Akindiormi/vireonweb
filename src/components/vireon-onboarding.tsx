@@ -86,7 +86,7 @@ export default function VireonOnboardingFlow({ isOpen, onClose }: VireonOnboardi
 
   const handleCompletePayment = () => {
     setIsSubmitting(true);
-    const telegramUsername = "YourTelegramUsername";
+    const telegramUsername = "heisbellah";
     const message = encodeURIComponent(
       `New Vireon Payment Confirmation\n\n` +
         `Name: ${fullName}\n` +
